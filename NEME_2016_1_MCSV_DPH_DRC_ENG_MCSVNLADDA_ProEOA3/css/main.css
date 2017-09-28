@@ -1,0 +1,63 @@
+.left_square{
+	width:318px; height:340px; text-align:center;
+	background:rgba(255,255,255,0.6);
+	border-radius:38px; border:4px dashed #fff;
+	font-size:22px; line-height:26px;
+	position:absolute; left:39px; top:169px;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+}
+.left_square b{ font-size:26px;}
+
+.left_square span{font-size:34px; }
+
+.circle_2{
+	background:url(../images/circle_2.png) no-repeat;
+	width:165px; height:165px;
+	position:absolute; left:805px; top:383px;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	font-size:18px; line-height:22px;
+}
+
+.human{
+	background:url(../images/human.png) no-repeat;
+	width:383px; height:308px;
+	position:absolute; left:438px; top:216px;
+}
+
+.human .top_text{
+	width:100%; text-align:center; font-size:14px;
+	position:absolute; left:0px; top:-70px;
+}
+
+.human .bot_text{
+	width:200%; text-align:center; font-size:12px;
+	position:absolute; left:-50%; bottom:-66px;
+}
+
+.human .title, .human .percent{
+	width:50%; position:absolute; top:-30px;
+	font-size:18px; text-align:center;
+}
+.human .title.blue,
+.human .percent.blue{ left:0px;}
+.human .title.red{ right:0px;}
+
+.human .percent{ top:20px;}
+.human .percent.red{ left:52% !important;}
+
+.human .blue_percentage{
+	background:url(../images/blue_percentage.png) no-repeat left bottom;
+	width:185px; height:197px; position:absolute; left:0px; bottom:0px;
+}
+.human .red_percentage{
+	background:url(../images/red_percentage.png) no-repeat left bottom;
+	width:191px; height:144px; position:absolute; right:0px; bottom:0px;
+}
+.human .blue_percentage.hide,
+.human .red_percentage.hide{ height:0px;}
+
+.speed{ -webkit-transition:0.5s ease all;}

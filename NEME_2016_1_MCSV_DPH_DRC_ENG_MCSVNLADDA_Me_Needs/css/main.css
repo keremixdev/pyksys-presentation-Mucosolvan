@@ -1,0 +1,30 @@
+.effect { left: 538px; top: 449px; z-index:5}
+.claim_s{font-size:15px; left:120px; top: 130px;}
+.cir1,.cir2,.cir3{
+	width:118px;
+	height:118px;
+	position:absolute;
+	bottom: 177px;
+	padding-top:30px;
+	text-align:center;
+	color:#fff;
+}
+.cir1{background: url(../images/red_bubble.png) no-repeat; left:50px;}
+.cir2{background: url(../images/blue_bubble.png) no-repeat; left:180px;}
+.cir3{background: url(../images/white_bubble.png) no-repeat; left:310px;}
+.logoo{
+	background: url(../images/logo.png) no-repeat; 
+	width:263px;
+	height:138px;
+	position:absolute;
+	left:110px;
+	top:270px;}
+.txt_arr{
+	background:url(../images/ico.png) no-repeat;
+	left:50px;
+	padding: 13px 0 0 75px;
+	font-size:17px;
+	top:180px;
+	height:150px;
+}
+	

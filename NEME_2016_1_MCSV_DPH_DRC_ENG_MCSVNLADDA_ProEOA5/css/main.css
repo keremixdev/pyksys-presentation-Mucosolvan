@@ -1,0 +1,116 @@
+.left_square{
+	width:318px; height:340px; text-align:center;
+	background:rgba(255,255,255,0.6);
+	border-radius:38px; border:4px dashed #fff;
+	font-size:22px; line-height:26px;
+	position:absolute; left:39px; top:169px;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+}
+.left_square b:nth-child(1){ font-size:26px;}
+
+.left_square span{font-size:34px; }
+
+.circle_2{
+	background:url(../images/circle_2.png) no-repeat;
+	width:165px; height:165px;
+	position:absolute; left:805px; top:383px;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	font-size:18px; line-height:22px;
+}
+
+.chart_grid{
+	background:url(../images/chart_grid.png) no-repeat;
+	width:428px; height:268px;
+	position:absolute; left:373px; top:224px;
+}
+
+.chart_grid .top_text{
+	width: 169%;
+	text-align:center;
+	font-size:13px;
+	line-height:15px;
+	position:absolute;
+	left: -33%;
+	top:-70px;
+}
+
+.chart_grid .top_text span{ font-size:18px;}
+
+.chart_grid .bot_text{
+	width:200%; text-align:center; font-size:11px;
+	position:absolute; left:-50%; bottom:-55px;
+}
+
+.chart_grid .x_axis{
+	width:268px; text-align:center; letter-spacing: -1px;
+	font-size:8px;
+	position:absolute; left:-112px; top:112px;
+	-webkit-transform:rotate(-90deg);
+}
+
+.chart_grid .col{
+	width:20px; position:absolute; bottom:65px;
+}
+
+.chart_grid .col.blue{ background:#164397;}
+.chart_grid .col.red{ background:#de1c29;}
+.chart_grid .col.speed{ -webkit-transition:0.5s ease all;}
+
+.chart_grid .col_1{ left:78px; height:170px;}
+.chart_grid .col_2{ left:103px; height:76px;}
+
+.chart_grid .col_3{ left:167px; height:48px;}
+.chart_grid .col_4{ left:192px; height:22px;}
+
+.chart_grid .col_5{ left:256px; height:158px;}
+.chart_grid .col_6{ left:281px; height:54px;}
+
+.chart_grid .col_7{ left:345px; height:35px;}
+.chart_grid .col_8{ left:370px; height:15px;}
+
+.chart_grid .col.hide{ height:0px !important;}
+
+.chart_grid .legend{
+	position:absolute; left:98px; bottom:10px;
+}
+
+.chart_grid .legend span{ position:relative; display:inline-block; font-size:12px; margin-right:20px;}
+.chart_grid .legend span::before{
+	content:''; display:inline-block;
+	width:5px; height:5px; position:absolute; left:-10px; top:4px;
+}
+.chart_grid .legend span:nth-child(1)::before{ background:#164397;}
+.chart_grid .legend span:nth-child(2)::before{ background:#de1c29;}
+
+.chart_grid .text_{ font-size:12px; position:absolute; bottom:30px;}
+.chart_grid .text_1{ left:135px;}
+.chart_grid .text_2{ left:314px;}
+
+.chart_grid .chart_numb{
+	background:url(../images/chart_numb.png) no-repeat;
+	width:100%; height:100%;
+	position:absolute; left:0px; top:0px; display:none;
+}
+.chart_numb span{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 10px;
+	color: #333;
+}
+.chart_numb span:nth-child(1){
+	top: 24px;
+	left: 104px;
+}
+.chart_numb span:nth-child(2){
+	top: 24px;
+	left: 275px;
+}
+.chart_numb span:nth-child(3){
+	top: 134px;
+	left: 190px;
+}

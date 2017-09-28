@@ -1,0 +1,35 @@
+.circle_2{
+	background:url(../images/circle_2.png) no-repeat;
+	width:165px; height:165px;
+	position:absolute; left:805px; top:383px;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	font-size:18px; line-height:22px;
+	padding-left:5px;
+}
+
+ul.main_list{
+	list-style:none;
+	margin:0; padding:0;
+	position:absolute; left:200px; top:222px;
+	width:230px;
+}
+
+ul.main_list_2{ left:565px;}
+
+ul.main_list li{
+	clear:both; font-size:20px; line-height:24px;
+	margin-bottom:30px; position:relative;
+}
+
+ul.main_list li span{
+	width:73px; height:73px; position:absolute; left:-85px; top:-52px;
+	background:url(../images/icons.png) no-repeat;
+}
+ul.main_list li span.icon_1{ background-position:0px 0px;}
+ul.main_list li span.icon_2{ background-position:0px -81px;}
+ul.main_list li span.icon_3{ background-position:0px -162px;}
+ul.main_list li span.icon_4{ background-position:0px -243px;}
+ul.main_list li span.icon_5{ background-position:0px -323px;}
+ul.main_list li span.icon_6{ background-position:0px -404px;}

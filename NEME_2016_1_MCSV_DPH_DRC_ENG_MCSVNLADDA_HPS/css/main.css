@@ -1,0 +1,33 @@
+.pack { left: 211px; top: 367px;}
+
+.box_around {
+	left: 136px;
+	top: 174px;
+	width:480px;
+	height:176px;
+	background: url(../images/box_arrow.png) no-repeat;
+	padding-left: 32px;
+	padding-top: 10px;
+}
+.box_around p{font-size: 15px;}
+
+.circle_right {
+	left: 723px;
+	top: 207px;
+	width:254px;
+	height:254px;
+	background: url(../images/circle_right.png) no-repeat;
+	padding-left: 42px;
+	padding-top: 59px;
+	box-sizing: border-box;
+}
+.circle_right h2{margin-bottom: 0px;font-size: 25px;}
+.circle_right p{font-size: 14px;}
+
+.fly {
+	left: 417px;
+	top: -50px;
+	width:135px;
+	height:135px;
+	background: url(../images/fly.png) no-repeat;
+}

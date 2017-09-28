@@ -1,0 +1,16 @@
+.lung{ left:-163px !important;}
+
+ul.main_list{
+	list-style:none; margin:0; padding:0;
+	position:absolute; left:468px; bottom:193px;
+	width:505px;
+}
+ul.main_list li{
+	clear:both; padding-left:15px;
+	font-size:12px; line-height:16px;
+	position:relative;
+}
+ul.main_list li span{
+	position:absolute; left:-5px; top:0px;
+	display:inline-block; width:20px;
+}

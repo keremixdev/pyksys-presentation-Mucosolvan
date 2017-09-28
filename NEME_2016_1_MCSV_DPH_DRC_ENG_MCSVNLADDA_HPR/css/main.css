@@ -1,0 +1,20 @@
+.img{
+	width:1024px;
+	height:768px;
+	background: url(../images/img.jpg) no-repeat;
+}
+.claim{background:none !important;}
+.r_txt{
+	color:#DE1C29;
+	font-size:30px;
+	top: 271px;
+    left: 670px;
+	position:absolute}
+.r_txt span{
+	color:#164397;
+	font-size:30px;
+}
+.r_txt p{
+	color:#404040;
+	font-size:16px;
+	}

@@ -1,0 +1,33 @@
+.titleTop h1 {font-size: 50px; margin-left: 43px;  }
+.titleTop{top:0px !important;}
+.thumbs_main {
+	width: 894px;
+	height: 450px;
+	top: 120px;
+	left: 43px;
+	overflow: hidden;
+	position: absolute;
+}
+.thumbs_main li.actived{
+	box-shadow: 2px 2px 14px #114996;
+}
+.thumbs_main ul{
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+}
+.thumbs_main li{
+	background: url(../images/box.png) repeat;
+	width:129px;
+	height:101px;
+	display:inline-block;
+	position:relative;
+	margin-right: 13px;
+	margin-bottom: 10px;
+}
+.thumbs_main li img{
+	margin:7px 7px;
+	background-size:100% 100%;
+	width: 115px;
+	height: 85px;
+}

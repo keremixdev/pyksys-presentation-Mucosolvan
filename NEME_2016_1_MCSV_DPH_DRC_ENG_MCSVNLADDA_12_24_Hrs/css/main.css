@@ -1,0 +1,23 @@
+.effect { left: 538px; top: 449px; z-index:5}
+.img{
+	width:378px;
+	height:252px;
+	background: url(../images/img.png) no-repeat;
+	top:150px;
+	left:170px;
+	text-align:center;
+	padding-top:125px;
+	font-size:22px;
+}
+.cir{
+	background: url(../images/red_bubble.png) no-repeat;
+	width:131px;
+	height:132px;
+	position:absolute;
+	top: 277px;
+	left:62px;
+	text-align:center;
+	padding:35px 50px 0 0px;
+	color:#fff;
+	font-size:18px;
+}
